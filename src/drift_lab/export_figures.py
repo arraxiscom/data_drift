@@ -8,6 +8,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
+from drift_lab.constants import LEDGER_ROUTE_FEATURES
 from drift_lab.detectors import cusum_detect, windowed_psi_series
 from drift_lab.metrics import (
     expected_calibration_error,
@@ -24,13 +25,7 @@ from drift_lab.plots import (
 )
 from drift_lab.streams import StreamConfig, build_ledger_route_model, generate_stream
 
-FEATURE_COLS = [
-    "channel_online",
-    "log_amount",
-    "mcc_bucket",
-    "foreign_flag",
-    "weekend",
-]
+FEATURE_COLS = LEDGER_ROUTE_FEATURES
 
 
 def _write_json(path: Path, payload: dict) -> None:

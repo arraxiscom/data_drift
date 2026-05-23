@@ -1,5 +1,6 @@
 """Synthetic drift streams and monitoring helpers for LedgerRoute demos."""
 
+from drift_lab.constants import LEDGER_ROUTE_FEATURES
 from drift_lab.streams import (
     StreamConfig,
     build_ledger_route_model,
@@ -14,6 +15,7 @@ from drift_lab.metrics import (
 )
 
 __all__ = [
+    "LEDGER_ROUTE_FEATURES",
     "StreamConfig",
     "build_ledger_route_model",
     "expected_calibration_error",

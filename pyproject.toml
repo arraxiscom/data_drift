@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "drift-lab"
 version = "0.1.0"
-description = "Synthetic drift streams and monitoring metrics for the Arraxis living-model saga"
+description = "Synthetic LedgerRoute streams and drift monitoring for ML practitioners"
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
