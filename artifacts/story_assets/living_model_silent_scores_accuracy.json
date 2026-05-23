@@ -1,0 +1,6 @@
+{
+  "final_rolling_accuracy": 0.8625,
+  "min_rolling_accuracy": 0.74125,
+  "reference_train_days": 30,
+  "stream_kind": "covariate_gradual"
+}

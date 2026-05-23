@@ -1,0 +1,7 @@
+{
+  "model": "LogisticRegression on LedgerRoute synthetic features",
+  "stable_accuracy_on_train_window": 0.7776666666666666,
+  "covariate_final_rolling_accuracy": 0.8625,
+  "max_channel_psi": 0.029208581468295233,
+  "accuracy_drop_after_concept_shift": -0.12552857142857143
+}

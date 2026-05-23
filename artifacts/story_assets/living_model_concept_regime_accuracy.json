@@ -1,0 +1,9 @@
+{
+  "accuracy_pre_shift": 0.7825714285714286,
+  "accuracy_post_shift": 0.9081,
+  "ece_pre_shift": 0.007612761896647637,
+  "ece_post_shift": 0.124152147338641,
+  "concept_shift_day": 70,
+  "final_rolling_accuracy": 0.91125,
+  "min_rolling_accuracy": 0.75375
+}

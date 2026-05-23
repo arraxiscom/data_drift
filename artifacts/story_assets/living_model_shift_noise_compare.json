@@ -1,0 +1,15 @@
+{
+  "Gradual (channel mix)": {
+    "final": 2.2526321071397404,
+    "max": 2.2526321071397404
+  },
+  "Abrupt (label rate)": {
+    "final": 1.2571734365422367,
+    "max": 1.778667602811608
+  },
+  "Seasonal noise": {
+    "final": 0.2866517262533181,
+    "max": 2.178553119525222
+  },
+  "cusum_alarm_day_gradual": 70
+}
